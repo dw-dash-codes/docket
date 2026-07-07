@@ -1,38 +1,40 @@
-# 🚀 Docket | AI-Powered Document Assistant
+# 🚀 Docket | Secure, Hallucination-Free Document AI
 
 🔗 **Live Application:** [Test Docket Here](https://docket-preview.vercel.app)
 
 ## 🎯 The Problem
-In today's fast-paced digital environment, extracting specific information from dense documents and large PDFs is a time-consuming and tedious process. Professionals and students often spend hours scrolling through pages to find a single piece of relevant data. Traditional search (Ctrl+F) is limited to exact keyword matches and lacks contextual understanding, making research inefficient.
+As AI tools become mainstream, professionals face two critical hurdles when analyzing documents: **Data Security** and **AI Hallucinations**. 
+When users upload sensitive files to public LLMs and ask questions, the AI often suffers from "knowledge bleed"—it mixes external training data with the document's content, leading to fabricated or factually incorrect answers (hallucinations). Furthermore, uploading proprietary documents to public models raises severe data privacy and compliance concerns.
 
 ## 💡 The Solution
-**Docket** is a full-stack, AI-driven platform designed to solve the document overload problem. By leveraging Agentic AI and Retrieval-Augmented Generation (RAG) concepts, Docket allows users to "talk" to their documents. 
+**Docket** is a secure, full-stack AI platform engineered to completely eliminate AI hallucinations through strict context bounding. 
 
-Instead of reading through entire files, users can simply ask questions in natural language. The intelligent backend processes the context and delivers precise, conversational answers. Complete with secure authentication and permanent chat session history, Docket acts as a personalized cognitive assistant for your data.
+Built on Retrieval-Augmented Generation (RAG) principles, Docket forces the AI engine to act strictly as a reader, not a creator. When you query a document, Docket ensures the AI answers **only** using the data provided within that specific file. If the information does not exist in the uploaded document, the system explicitly states it, ensuring 100% factual reliability. Coupled with isolated user sessions, Docket keeps your queries and documents private and secure.
 
 ## ✨ Key Features
-* **Conversational AI Interface:** Chat naturally with the AI to extract summaries, key points, and precise data from your context.
-* **Session Management:** All chats are securely saved in a cloud database. Pick up exactly where you left off with organized chat histories.
-* **Secure Authentication:** User-specific data isolation ensuring your queries and document contexts remain private.
-* **Real-time Processing:** Fast and responsive UI built on modern web standards with an enterprise-grade C# architecture backing it.
+* **Zero-Hallucination Architecture:** Strict contextual boundaries ensure the AI never invents information or pulls from outside the uploaded document.
+* **Data Security & Privacy:** User-isolated database architecture means your chat histories and document contexts are completely insulated.
+* **Persistent Cognitive Sessions:** All interactions are securely saved in an Azure cloud database, allowing you to seamlessly return to past document analyses.
+* **Enterprise-Grade Performance:** Fast, real-time responses utilizing a robust C# backend and an optimized React frontend.
 
 ## 🛠️ Tech Stack
 * **Frontend:** React, Vite, JavaScript (Deployed on Vercel)
 * **Backend API:** C#, ASP.NET Core 8+ (Deployed on Azure App Service)
 * **Database:** Azure SQL Database (Managed via Entity Framework Core)
-* **AI Engine:** Google Gemini API
+* **AI Engine:** Google Gemini API (Configured for strict contextual grounding)
 
 ---
 
 ## 🧪 Try it Out!
-Want to see Docket in action without signing up? You can use the following test credentials to log in and test the AI features directly.
+Want to test Docket's strict context enforcement without signing up? Use the following test credentials:
 
 * **Email:** `test@gmail.com` 
 * **Password:** `Test@123` 
 
-> **Note:** Please do not upload highly sensitive or personal information to the test account, as it is a shared demo environment.
+> **Note:** Upload a document and try asking a question completely unrelated to its content to see how Docket successfully refuses to hallucinate!
 
 ---
 
 ## 👨‍💻 Developed By
-**Danish Waheed** Full-Stack Developer & Software Engineer
+**Danish Waheed**
+Full-Stack Developer & Software Engineer
