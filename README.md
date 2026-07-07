@@ -37,4 +37,5 @@ Want to test Docket's strict context enforcement without signing up? Use the fol
 
 ## 👨‍💻 Developed By
 **Danish Waheed**
-Full-Stack Developer & Software Engineer
+Full-Stack Developer
+
