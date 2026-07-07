@@ -1,16 +1,38 @@
-# React + Vite
+# 🚀 Docket | AI-Powered Document Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+🔗 **Live Application:** [Test Docket Here](https://docket-preview.vercel.app)
 
-Currently, two official plugins are available:
+## 🎯 The Problem
+In today's fast-paced digital environment, extracting specific information from dense documents and large PDFs is a time-consuming and tedious process. Professionals and students often spend hours scrolling through pages to find a single piece of relevant data. Traditional search (Ctrl+F) is limited to exact keyword matches and lacks contextual understanding, making research inefficient.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 💡 The Solution
+**Docket** is a full-stack, AI-driven platform designed to solve the document overload problem. By leveraging Agentic AI and Retrieval-Augmented Generation (RAG) concepts, Docket allows users to "talk" to their documents. 
 
-## React Compiler
+Instead of reading through entire files, users can simply ask questions in natural language. The intelligent backend processes the context and delivers precise, conversational answers. Complete with secure authentication and permanent chat session history, Docket acts as a personalized cognitive assistant for your data.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Key Features
+* **Conversational AI Interface:** Chat naturally with the AI to extract summaries, key points, and precise data from your context.
+* **Session Management:** All chats are securely saved in a cloud database. Pick up exactly where you left off with organized chat histories.
+* **Secure Authentication:** User-specific data isolation ensuring your queries and document contexts remain private.
+* **Real-time Processing:** Fast and responsive UI built on modern web standards with an enterprise-grade C# architecture backing it.
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
+* **Frontend:** React, Vite, JavaScript (Deployed on Vercel)
+* **Backend API:** C#, ASP.NET Core 8+ (Deployed on Azure App Service)
+* **Database:** Azure SQL Database (Managed via Entity Framework Core)
+* **AI Engine:** Google Gemini API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 🧪 Try it Out!
+Want to see Docket in action without signing up? You can use the following test credentials to log in and test the AI features directly.
+
+* **Email:** `testuser@docket.com` *(Replace this with your dummy email)*
+* **Password:** `Test@12345` *(Replace this with your dummy password)*
+
+> **Note:** Please do not upload highly sensitive or personal information to the test account, as it is a shared demo environment.
+
+---
+
+## 👨‍💻 Developed By
+**Danish Waheed** Full-Stack Developer & Software Engineer
