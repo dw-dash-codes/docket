@@ -10,7 +10,6 @@ const INITIAL_MESSAGES = [
   }
 ];
 
-import React, { useState, useEffect, useRef } from 'react';
 
 export default function ChatInterface({ activeFile, user, currentSessionId, onNewSessionCreated }) {
   // 1. Base URL ko variable mein store karein
