@@ -27,8 +27,8 @@ Instead of reading through entire files, users can simply ask questions in natur
 ## 🧪 Try it Out!
 Want to see Docket in action without signing up? You can use the following test credentials to log in and test the AI features directly.
 
-* **Email:** `testuser@docket.com` *(Replace this with your dummy email)*
-* **Password:** `Test@12345` *(Replace this with your dummy password)*
+* **Email:** `test@gmail.com` 
+* **Password:** `Test@123` 
 
 > **Note:** Please do not upload highly sensitive or personal information to the test account, as it is a shared demo environment.
 
